@@ -13,3 +13,7 @@ spring:
         isolation.level: read_committed
     producer:
       transaction-id-prefix: tx-
+
+logging.level:
+  org.springframework.kafka.transaction: trace
+  org.springframework.transaction: trace
